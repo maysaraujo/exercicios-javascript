@@ -1,5 +1,11 @@
-function fatorial(numero = 10) {
-  for (let i = 0; i < numero; i++) {
-    console.log(i);
+/*Faça um algoritmo que calcule o fatorial de um número.*/
+
+function fatorial(numero) {
+  if (numero == 1) {
+    return 1;
   }
+
+  return numero * fatorial(numero - 1);
 }
+
+console.log(fatorial(5));
