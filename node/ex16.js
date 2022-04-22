@@ -1,4 +1,4 @@
-/*Um funcionário irá receber um aumento de acordo com o seu plano de
+/*Um funcionário irá receber um AUMENTO de acordo com o seu plano de
 trabalho, de acordo com a tabela abaixo:
 Plano Aumento
 A     10%
@@ -7,7 +7,7 @@ C     20%
 Faça uma função que leia o plano de trabalho e o salário atual de um funcionário e calcula e imprime o seu
 novo salário. Use a estrutura switch e faça um caso default que indique que o plano é inválido.*/
 
-const aumento = function (salario, plano) {
+const AUMENTO = function (salario, plano) {
   switch (plano) {
     case "A":
       return salario * 1.1;
@@ -23,7 +23,7 @@ const aumento = function (salario, plano) {
   }
 };
 
-console.log(aumento(1000, "A"));
-console.log(aumento(1000, "B"));
-console.log(aumento(1000, "C"));
-console.log(aumento(1000, "H"));
+console.log(AUMENTO(1000, "A"));
+console.log(AUMENTO(1000, "B"));
+console.log(AUMENTO(1000, "C"));
+console.log(AUMENTO(1000, "H"));
