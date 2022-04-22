@@ -3,15 +3,15 @@ A primeira função retornará o montante da aplicação financeira sob o regime
 e a segunda retornará o valor da aplicação sob o regime de juros compostos*/
 
 function simples(capitalInicial, taxaJuros, periodo) {
-  const jurosSimples = capitalInicial * taxaJuros * periodo;
+  const JUROSIMPLES = capitalInicial * taxaJuros * periodo;
 
-  console.log(`Juros Simples: ${jurosSimples}`);
+  console.log(`Juros Simples: ${JUROSIMPLES}`);
 }
 
 function composto(capitalInicial, taxaJuros, periodo) {
-  const jurosComposto = capitalInicial * (1 + taxaJuros) ** periodo;
+  const JUROSCOMPOSTO = capitalInicial * (1 + taxaJuros) ** periodo;
 
-  console.log(`Juros Compostos: ${jurosComposto}`);
+  console.log(`Juros Compostos: ${JUROSCOMPOSTO}`);
 }
 
 simples(2.500, 0.04, 12);
