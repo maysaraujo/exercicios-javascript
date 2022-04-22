@@ -1,7 +1,7 @@
 /*Faça um programa que leia um número entre 0 e 10, e escreva este número por extenso. Use o comando
 switch. Crie um case default que escreva ‘Número fora do intervalo.’*/
 
-const extenso = function (numero) {
+const EXTENSO = function (numero) {
   switch (numero) {
     case 1:
       return "Um";
@@ -38,8 +38,8 @@ const extenso = function (numero) {
   }
 };
 
-console.log(`Numero por extenso: ${extenso(1)}`);
-console.log(`Numero por extenso: ${extenso(10)}`);
-console.log(`Numero por extenso: ${extenso(5)}`);
-console.log(`Numero por extenso: ${extenso(7)}`);
-console.log(`Numero por extenso: ${extenso(20)}`);
+console.log(`Numero por EXTENSO: ${EXTENSO(1)}`);
+console.log(`Numero por EXTENSO: ${EXTENSO(10)}`);
+console.log(`Numero por EXTENSO: ${EXTENSO(5)}`);
+console.log(`Numero por EXTENSO: ${EXTENSO(7)}`);
+console.log(`Numero por EXTENSO: ${EXTENSO(20)}`);
