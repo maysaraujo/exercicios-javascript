@@ -10,7 +10,7 @@ Implemente uma função que receba como parâmetros o código do item pedido, a 
 a ser pago por aquele lanche. Considere que a cada execução somente será calculado um item. Use o
 comando switch. Crie um caso default para produto não existente.*/
 
-const cardapio = function (produto, qtd) {
+const CARDAPIO = function (produto, qtd) {
   switch (produto) {
     case 100:
       return `Cachorro Quente: R$${3.0 * qtd}`;
@@ -35,7 +35,7 @@ const cardapio = function (produto, qtd) {
   }
 };
 
-console.log(cardapio(600, 1));
-console.log(cardapio(100, 3));
-console.log(cardapio(400, 2));
-console.log(cardapio(200, 5));
+console.log(CARDAPIO(600, 1));
+console.log(CARDAPIO(100, 3));
+console.log(CARDAPIO(400, 2));
+console.log(CARDAPIO(200, 5));

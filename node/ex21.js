@@ -3,7 +3,7 @@ aluno, considerando que o peso para a maior nota seja 4 e para as duas restantes
 aluno, suas três notas, a média calculada e uma mensagem "APROVADO" se a média for maior ou igual a 5 e
 "REPROVADO" se a média for menor que 5. Repita a operação até que o código lido seja negativo.*/
 
-const alunoMedia = function (cod, n1, n2, n3) {
+const ALUNOMEDIA = function (cod, n1, n2, n3) {
   let media = (n1 + n2 + n3) / 3;
 
   if (media >= 5) {
@@ -13,5 +13,5 @@ const alunoMedia = function (cod, n1, n2, n3) {
   }
 };
 
-console.log(alunoMedia(1, 4, 4, 4));
-console.log(alunoMedia(7, 6, 8, 4));
+console.log(ALUNOMEDIA(1, 4, 4, 4));
+console.log(ALUNOMEDIA(7, 6, 8, 4));
