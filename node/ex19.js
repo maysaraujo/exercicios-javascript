@@ -3,7 +3,7 @@ considerando que todos pagam R$ 100 mais um adicional conforme a seguinte tabela
 de 10 anos pagam R$80; 2) conveniados com idade entre 10 e 30 anos pagam R$50; 3) conveniados com
 idade acima de 30 e até 60 anos pagam R$ 95; e 4) conveniados acima de 60 anos pagam R$130*/
 
-const PLANOSAUDE = function (idade) {
+const PLANO_SAUDE = function (idade) {
   if (idade < 10) {
     return "R$180";
   } else if (idade >= 10 && idade <= 30) {
@@ -15,9 +15,9 @@ const PLANOSAUDE = function (idade) {
   }
 };
 
-console.log(PLANOSAUDE(10));
-console.log(PLANOSAUDE(30));
-console.log(PLANOSAUDE(60));
-console.log(PLANOSAUDE(28));
-console.log(PLANOSAUDE(15));
-console.log(PLANOSAUDE(85));
+console.log(PLANO_SAUDE(10));
+console.log(PLANO_SAUDE(30));
+console.log(PLANO_SAUDE(60));
+console.log(PLANO_SAUDE(28));
+console.log(PLANO_SAUDE(15));
+console.log(PLANO_SAUDE(85));

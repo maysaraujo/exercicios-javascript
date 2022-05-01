@@ -4,7 +4,7 @@ comprador queira o hatch, retorne: “Compra efetuada com sucesso”. Nas outras
 que não prefere este modelo?”. Caso seja especificado um modelo que não está disponível, retorne no console:
 “Não trabalhamos com este tipo de automóvel aqui”.*/
 
-const comprar = function (veiculo) {
+const COMPRAR = function (veiculo) {
   switch (veiculo) {
     case "hatch":
       return "Compra efetuada com sucesso.";
@@ -19,7 +19,7 @@ const comprar = function (veiculo) {
   }
 };
 
-console.log(revenda("hatch"));
-console.log(revenda("sedan"));
-console.log(revenda("motocicleta"));
-console.log(revenda("caminhonete"));
+console.log(COMPRAR("hatch"));
+console.log(COMPRAR("sedan"));
+console.log(COMPRAR("motocicleta"));
+console.log(COMPRAR("caminhonete"));
