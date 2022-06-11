@@ -1,0 +1,7 @@
+#btn {
+  background-color: hsl(0, 80%, 67%);
+  width: 160px;
+  height: 65px;
+  border: none;
+  cursor: pointer;
+}
